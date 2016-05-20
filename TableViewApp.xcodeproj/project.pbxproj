@@ -12,6 +12,14 @@
 		C2766AF51CED9728006F9C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2766AF31CED9728006F9C84 /* Main.storyboard */; };
 		C2766AF71CED9728006F9C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2766AF61CED9728006F9C84 /* Assets.xcassets */; };
 		C2766AFA1CED9728006F9C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2766AF81CED9728006F9C84 /* LaunchScreen.storyboard */; };
+		C2766B021CEDA17F006F9C84 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2766B011CEDA17F006F9C84 /* FirstTableViewController.swift */; };
+		C2766B041CEDA77E006F9C84 /* BookVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2766B031CEDA77E006F9C84 /* BookVO.swift */; };
+		C2766B0A1CEDA894006F9C84 /* l9780091816971.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2766B061CEDA894006F9C84 /* l9780091816971.jpg */; };
+		C2766B0B1CEDA894006F9C84 /* l9780385512275.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2766B071CEDA894006F9C84 /* l9780385512275.jpg */; };
+		C2766B0C1CEDA894006F9C84 /* l9780399564192.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2766B081CEDA894006F9C84 /* l9780399564192.jpg */; };
+		C2766B0D1CEDA894006F9C84 /* l9781591846444.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2766B091CEDA894006F9C84 /* l9781591846444.jpg */; };
+		C2766B0F1CEE968E006F9C84 /* BookTableViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2766B0E1CEE968E006F9C84 /* BookTableViewTableViewCell.swift */; };
+		C2766B111CEEA6F5006F9C84 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2766B101CEEA6F5006F9C84 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		C2766AF61CED9728006F9C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2766AF91CED9728006F9C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2766AFB1CED9728006F9C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2766B011CEDA17F006F9C84 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		C2766B031CEDA77E006F9C84 /* BookVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookVO.swift; sourceTree = "<group>"; };
+		C2766B061CEDA894006F9C84 /* l9780091816971.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = l9780091816971.jpg; sourceTree = "<group>"; };
+		C2766B071CEDA894006F9C84 /* l9780385512275.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = l9780385512275.jpg; sourceTree = "<group>"; };
+		C2766B081CEDA894006F9C84 /* l9780399564192.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = l9780399564192.jpg; sourceTree = "<group>"; };
+		C2766B091CEDA894006F9C84 /* l9781591846444.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = l9781591846444.jpg; sourceTree = "<group>"; };
+		C2766B0E1CEE968E006F9C84 /* BookTableViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewTableViewCell.swift; sourceTree = "<group>"; };
+		C2766B101CEEA6F5006F9C84 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,30 @@
 		C2766AEE1CED9728006F9C84 /* TableViewApp */ = {
 			isa = PBXGroup;
 			children = (
+				C2766B051CEDA86B006F9C84 /* Resources */,
 				C2766AEF1CED9728006F9C84 /* AppDelegate.swift */,
 				C2766AF11CED9728006F9C84 /* ViewController.swift */,
 				C2766AF31CED9728006F9C84 /* Main.storyboard */,
 				C2766AF61CED9728006F9C84 /* Assets.xcassets */,
 				C2766AF81CED9728006F9C84 /* LaunchScreen.storyboard */,
 				C2766AFB1CED9728006F9C84 /* Info.plist */,
+				C2766B011CEDA17F006F9C84 /* FirstTableViewController.swift */,
+				C2766B031CEDA77E006F9C84 /* BookVO.swift */,
+				C2766B0E1CEE968E006F9C84 /* BookTableViewTableViewCell.swift */,
+				C2766B101CEEA6F5006F9C84 /* WebViewController.swift */,
 			);
 			path = TableViewApp;
+			sourceTree = "<group>";
+		};
+		C2766B051CEDA86B006F9C84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2766B061CEDA894006F9C84 /* l9780091816971.jpg */,
+				C2766B071CEDA894006F9C84 /* l9780385512275.jpg */,
+				C2766B081CEDA894006F9C84 /* l9780399564192.jpg */,
+				C2766B091CEDA894006F9C84 /* l9781591846444.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +128,7 @@
 				TargetAttributes = {
 					C2766AEB1CED9728006F9C84 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5UM93D7M7C;
 					};
 				};
 			};
@@ -123,8 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2766AFA1CED9728006F9C84 /* LaunchScreen.storyboard in Resources */,
+				C2766B0B1CEDA894006F9C84 /* l9780385512275.jpg in Resources */,
+				C2766B0D1CEDA894006F9C84 /* l9781591846444.jpg in Resources */,
 				C2766AF71CED9728006F9C84 /* Assets.xcassets in Resources */,
+				C2766B0C1CEDA894006F9C84 /* l9780399564192.jpg in Resources */,
 				C2766AF51CED9728006F9C84 /* Main.storyboard in Resources */,
+				C2766B0A1CEDA894006F9C84 /* l9780091816971.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2766AF21CED9728006F9C84 /* ViewController.swift in Sources */,
+				C2766B111CEEA6F5006F9C84 /* WebViewController.swift in Sources */,
 				C2766AF01CED9728006F9C84 /* AppDelegate.swift in Sources */,
+				C2766B0F1CEE968E006F9C84 /* BookTableViewTableViewCell.swift in Sources */,
+				C2766B021CEDA17F006F9C84 /* FirstTableViewController.swift in Sources */,
+				C2766B041CEDA77E006F9C84 /* BookVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +290,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = samsungsds.com.TableViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +304,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = samsungsds.com.TableViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
